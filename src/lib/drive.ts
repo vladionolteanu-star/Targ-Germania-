@@ -53,8 +53,9 @@ export async function listDriveFiles(): Promise<DriveFile[]> {
         );
 
         if (!res.ok) {
-            console.error('Drive API error:', await res.text());
-            break;
+            const errorText = await res.text();
+            console.error('Drive API error:', res.status, errorText);
+            throw new Error(`Drive API ${res.status}: ${errorText}`);
         }
 
         const data: DriveApiResponse = await res.json();
