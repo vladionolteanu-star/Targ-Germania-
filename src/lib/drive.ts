@@ -26,6 +26,11 @@ interface DriveApiResponse {
 }
 
 export async function listDriveFiles(): Promise<DriveFile[]> {
+    if (!DRIVE_API_KEY || !DRIVE_FOLDER_ID) {
+        console.error('Missing env vars:', { hasApiKey: !!DRIVE_API_KEY, hasFolderId: !!DRIVE_FOLDER_ID });
+        return [];
+    }
+
     const allFiles: DriveFile[] = [];
     let pageToken: string | undefined;
 
@@ -44,7 +49,7 @@ export async function listDriveFiles(): Promise<DriveFile[]> {
 
         const res = await fetch(
             `https://www.googleapis.com/drive/v3/files?${params.toString()}`,
-            { next: { revalidate: 120 } }
+            { cache: 'no-store' }
         );
 
         if (!res.ok) {
