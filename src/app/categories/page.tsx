@@ -60,10 +60,10 @@ export default function CategoriesPage() {
             {/* Right Panel — Categories */}
             <main className="flex-1 p-6 lg:p-10 overflow-y-auto">
                 <header className="mb-10">
-                    <h1 className="font-display text-4xl lg:text-5xl tracking-tight text-white/90">
+                    <h1 className="font-display text-4xl lg:text-5xl tracking-tight text-white">
                         Categorii EuroShop
                     </h1>
-                    <p className="mt-3 font-sans text-sm text-white/50 max-w-lg">
+                    <p className="mt-3 font-sans text-base text-white/80 max-w-xl leading-relaxed">
                         Trage pozele din panoul stânga și plasează-le în categoriile potrivite.
                         Click pe numele categoriei pentru a-l edita. Modificările se sincronizează în timp real.
                     </p>
