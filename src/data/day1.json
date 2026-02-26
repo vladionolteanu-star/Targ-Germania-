@@ -1,0 +1,351 @@
+[
+    {
+        "id": "sustainability",
+        "title": "Sustenabilitate și Inițiative Verzi",
+        "description": "Reciclare și abordări ecologice observate la târg.",
+        "items": [
+            {
+                "id": "img-sus-1",
+                "filename": "IMG-20260222-WA0000.jpeg",
+                "type": "image",
+                "caption": "Expoziție impresionantă de materiale sustenabile."
+            },
+            {
+                "id": "img-sus-2",
+                "filename": "IMG-20260222-WA0007.jpeg",
+                "type": "image",
+                "caption": "O altă perspectivă asupra inițiativelor verzi."
+            }
+        ]
+    },
+    {
+        "id": "3d-furniture",
+        "title": "Mobilier Imprimat 3D",
+        "description": "Mese și scaune inovatoare printate 3D pentru spații de retail.",
+        "items": [
+            {
+                "id": "img-3df-1",
+                "filename": "20260222_122620.jpg",
+                "type": "image",
+                "caption": "Textură în detaliu, probabil o suprafață printată 3D."
+            },
+            {
+                "id": "vid-3df-1",
+                "filename": "20260222_122800.mp4",
+                "type": "video",
+                "caption": "Video demonstrativ pentru durabilitatea structurilor printate 3D."
+            }
+        ]
+    },
+    {
+        "id": "digital-signage",
+        "title": "Digital Signage",
+        "description": "Ecrane LED și soluții dinamice de afișaj digital.",
+        "items": [
+            {
+                "id": "img-ds-1",
+                "filename": "20260222_124805.jpg",
+                "type": "image",
+                "caption": "Linii curate și ecrane digitale moderne într-un setup de retail."
+            },
+            {
+                "id": "vid-ds-1",
+                "filename": "20260222_131026.mp4",
+                "type": "video",
+                "caption": "Perete video dinamic pentru afișaj digital."
+            },
+            {
+                "id": "img-ds-2",
+                "filename": "20260222_131727.jpg",
+                "type": "image",
+                "caption": "Integrarea unui ecran LED transparent."
+            },
+            {
+                "id": "img-ds-3",
+                "filename": "20260222_131728.jpg",
+                "type": "image",
+                "caption": "Context adițional pentru afișajul digital."
+            },
+            {
+                "id": "vid-ds-2",
+                "filename": "20260222_131051.mp4",
+                "type": "video",
+                "caption": "Un alt unghi al setup-ului de afișaj digital."
+            }
+        ]
+    },
+    {
+        "id": "led-walls",
+        "title": "LED-uri Integrate în Pereți",
+        "description": "Integrarea impecabilă a tehnologiei LED direct în structura arhitecturală a peretelui.",
+        "items": [
+            {
+                "id": "img-wall-1",
+                "filename": "20260222_124834.jpg",
+                "type": "image",
+                "caption": "Ecran modern și elegant complet integrat în structura peretelui.",
+                "povs": [
+                    {
+                        "id": "pov-1",
+                        "name": "Alex",
+                        "comment": "Arată incredibil de curat, dar ar putea fi greu de întreținut dacă un modul cedează."
+                    }
+                ]
+            },
+            {
+                "id": "img-wall-2",
+                "filename": "20260222_131730.jpg",
+                "type": "image",
+                "caption": "Afișaj LED color încorporat în pereții de retail."
+            }
+        ]
+    },
+    {
+        "id": "self-service",
+        "title": "Self-Service & Checkout",
+        "description": "Concepte avansate de self-checkout și chioșcuri self-service.",
+        "items": [
+            {
+                "id": "img-ss-1",
+                "filename": "20260222_130038.jpg",
+                "type": "image",
+                "caption": "O stație self-checkout de generație următoare cu o interfață intuitivă."
+            },
+            {
+                "id": "img-ss-2",
+                "filename": "20260222_132138.jpg",
+                "type": "image",
+                "caption": "Chioșc automatizat pentru asistență în magazin."
+            },
+            {
+                "id": "vid-ss-1",
+                "filename": "20260222_123853.mp4",
+                "type": "video",
+                "caption": "Demonstrație de interacțiune la un terminal self-service."
+            }
+        ]
+    },
+    {
+        "id": "canadian-solution",
+        "title": "Comunicare HQ-Magazin (Soluție din Canada)",
+        "description": "Instrument de comunicare bidirecțională pentru planograme și conformitate în magazin.",
+        "items": [
+            {
+                "id": "img-can-1",
+                "filename": "20260222_132232.jpg",
+                "type": "image",
+                "caption": "Vedere dashboard a instrumentului de comunicare HQ-Magazin."
+            },
+            {
+                "id": "img-can-2",
+                "filename": "20260222_132234.jpg",
+                "type": "image",
+                "caption": "Interfață mobilă pentru raportarea conformității de către personalul magazinului."
+            }
+        ]
+    },
+    {
+        "id": "epaper",
+        "title": "Ecrane E-Paper",
+        "description": "Soluții e-paper la capăt de culoar, cu consum redus de energie.",
+        "items": [
+            {
+                "id": "img-epaper-1",
+                "filename": "20260222_133030.jpg",
+                "type": "image",
+                "caption": "Semn e-paper la capătul unui raft. Text foarte clar, zero reflexii."
+            }
+        ]
+    },
+    {
+        "id": "artwork-displays",
+        "title": "Display-uri ca Opere de Artă",
+        "description": "Ecrane cu rame ce imită capodopere pentru un spectacol estetic în magazin.",
+        "items": [
+            {
+                "id": "img-art-1",
+                "filename": "20260222_134333.jpg",
+                "type": "image",
+                "caption": "Ecran digital înrămat ca o pictură clasică în ulei."
+            },
+            {
+                "id": "img-art-2",
+                "filename": "20260222_134337.jpg",
+                "type": "image",
+                "caption": "O altă variație a conceptului de artă digitală înrămată."
+            }
+        ]
+    },
+    {
+        "id": "esl-labels",
+        "title": "Etichete de Preț Electronice (ESL)",
+        "description": "Diverse soluții ESL și semnalistică luminoasă pentru rafturi.",
+        "items": [
+            {
+                "id": "img-esl-1",
+                "filename": "20260222_140345.jpg",
+                "type": "image",
+                "caption": "ESL cu contrast ridicat și accente de culoare."
+            },
+            {
+                "id": "img-esl-2",
+                "filename": "20260222_140352.jpg",
+                "type": "image",
+                "caption": "Semne de raft luminoase integrate cu ESL-urile."
+            },
+            {
+                "id": "img-esl-3",
+                "filename": "20260222_141158.jpg",
+                "type": "image",
+                "caption": "Display pe marginea raftului de-a lungul întregului culoar."
+            }
+        ]
+    },
+    {
+        "id": "outdoor-furniture",
+        "title": "Mobilier de Exterior",
+        "description": "Exponate de mobilier pentru terasă și grădină.",
+        "items": [
+            {
+                "id": "img-out-1",
+                "filename": "20260222_122604.jpg",
+                "type": "image",
+                "caption": "Expoziție de exterior axată pe o estetică naturală, din lemn."
+            }
+        ]
+    },
+    {
+        "id": "ai-monitoring",
+        "title": "Monitorizare Rafturi cu AI",
+        "description": "Instrumente AI și viziune computerizată pentru stocuri și engagement vizual.",
+        "items": [
+            {
+                "id": "img-ai-1",
+                "filename": "20260222_143806.jpg",
+                "type": "image",
+                "caption": "Camere ce monitorizează nivelul stocului de la raft în timp real."
+            },
+            {
+                "id": "vid-ai-1",
+                "filename": "20260222_143849.mp4",
+                "type": "video",
+                "caption": "Demo al sistemului de viziune computerizată ce măsoară demografia și engagementul privitorilor."
+            },
+            {
+                "id": "img-ai-2",
+                "filename": "20260222_144505.jpg",
+                "type": "image",
+                "caption": "Dashboard afișând eficiența conținutului de pe totemuri."
+            },
+            {
+                "id": "img-ai-3",
+                "filename": "20260222_144556.jpg",
+                "type": "image",
+                "caption": "O altă perspectivă asupra panoului de analytics."
+            }
+        ]
+    },
+    {
+        "id": "uncategorized",
+        "title": "Diverse (Alte Observații)",
+        "description": "Alte momente interesante din Ziua 1.",
+        "items": [
+            {
+                "id": "img-oth-1",
+                "filename": "20260222_130315.jpg",
+                "type": "image",
+                "caption": "Interior de magazin cu diverse display-uri digitale."
+            },
+            {
+                "id": "img-oth-2",
+                "filename": "20260222_145020.jpg",
+                "type": "image",
+                "caption": "O configurare interesantă a corpurilor de mobilier."
+            },
+            {
+                "id": "img-oth-3",
+                "filename": "20260222_145021.jpg",
+                "type": "image",
+                "caption": "Detaliu pe materialele corpurilor."
+            },
+            {
+                "id": "img-oth-4",
+                "filename": "20260222_145023.jpg",
+                "type": "image",
+                "caption": "Vederea generală a standului."
+            },
+            {
+                "id": "vid-oth-1",
+                "filename": "20260222_152845.mp4",
+                "type": "video",
+                "caption": "Walkthrough printr-un stand care atrage privirile."
+            },
+            {
+                "id": "img-oth-5",
+                "filename": "20260222_153650.jpg",
+                "type": "image",
+                "caption": "Detalii de iluminat inovatoare."
+            },
+            {
+                "id": "vid-oth-2",
+                "filename": "20260222_154552.mp4",
+                "type": "video",
+                "caption": "Un alt walkthrough scurt."
+            },
+            {
+                "id": "vid-oth-3",
+                "filename": "20260222_160337.mp4",
+                "type": "video",
+                "caption": "Interacțiune cu un ecran tactil."
+            },
+            {
+                "id": "img-oth-6",
+                "filename": "20260222_161526.jpg",
+                "type": "image",
+                "caption": "Element decorativ la o scară mare."
+            },
+            {
+                "id": "img-oth-7",
+                "filename": "20260222_162416.jpg",
+                "type": "image",
+                "caption": "Stand ce mizează pe culori puternic contrastante."
+            },
+            {
+                "id": "img-oth-8",
+                "filename": "20260222_162620.jpg",
+                "type": "image",
+                "caption": "Sistem de rafturi modulare."
+            },
+            {
+                "id": "img-oth-9",
+                "filename": "20260222_162834.jpg",
+                "type": "image",
+                "caption": "Instantaneu din stand la finalul zilei."
+            },
+            {
+                "id": "vid-oth-4",
+                "filename": "20260222_163053.mp4",
+                "type": "video",
+                "caption": "Recapitulare finală din hală."
+            },
+            {
+                "id": "img-oth-10",
+                "filename": "Screenshot_20260222_080807_Adobe Acrobat.jpg",
+                "type": "image",
+                "caption": "Captură dintr-o broșură digitală."
+            },
+            {
+                "id": "img-oth-11",
+                "filename": "Screenshot_20260222_094853_Adobe Acrobat.jpg",
+                "type": "image",
+                "caption": "A doua captură dintr-o broșură digitală."
+            },
+            {
+                "id": "vid-oth-5",
+                "filename": "VID-20260222-WA0009.mp4",
+                "type": "video",
+                "caption": "Scurt clip primit pe WhatsApp în timpul târgului."
+            }
+        ]
+    }
+]
