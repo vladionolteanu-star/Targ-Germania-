@@ -1,8 +1,5 @@
 import type { DriveFile } from '@/types/database';
 
-const DRIVE_API_KEY = process.env.GOOGLE_DRIVE_API_KEY!;
-const DRIVE_FOLDER_ID = process.env.GOOGLE_DRIVE_FOLDER_ID!;
-
 const SUPPORTED_TYPES = [
     'image/jpeg',
     'image/png',
@@ -26,6 +23,9 @@ interface DriveApiResponse {
 }
 
 export async function listDriveFiles(): Promise<DriveFile[]> {
+    const DRIVE_API_KEY = process.env.GOOGLE_DRIVE_API_KEY;
+    const DRIVE_FOLDER_ID = process.env.GOOGLE_DRIVE_FOLDER_ID;
+
     if (!DRIVE_API_KEY || !DRIVE_FOLDER_ID) {
         console.error('Missing env vars:', { hasApiKey: !!DRIVE_API_KEY, hasFolderId: !!DRIVE_FOLDER_ID });
         return [];

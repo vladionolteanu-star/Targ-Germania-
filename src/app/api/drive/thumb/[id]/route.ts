@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const DRIVE_API_KEY = process.env.GOOGLE_DRIVE_API_KEY!;
-
 export async function GET(
     req: NextRequest,
     { params }: { params: Promise<{ id: string }> }
@@ -17,6 +15,11 @@ export async function GET(
     const targetSize = isFull ? 1600 : 400;
 
     try {
+        const DRIVE_API_KEY = process.env.GOOGLE_DRIVE_API_KEY;
+        if (!DRIVE_API_KEY) {
+            return NextResponse.json({ error: 'Missing API key' }, { status: 500 });
+        }
+
         // Use Drive API to get the file's thumbnail directly
         const metaRes = await fetch(
             `https://www.googleapis.com/drive/v3/files/${id}?fields=thumbnailLink&key=${DRIVE_API_KEY}`
