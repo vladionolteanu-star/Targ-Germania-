@@ -97,14 +97,14 @@ export function CategorySection({
                 </div>
 
                 {/* Photos Grid */}
-                <div className="px-5 pb-4">
+                <div className="px-3 sm:px-5 pb-4">
                     {assignments.length === 0 ? (
                         <div className={`flex flex-col items-center justify-center py-10 rounded-xl border-2 border-dashed transition-colors ${isDragOver ? 'border-accent text-accent' : 'border-white/10 text-white/20'}`}>
                             <ImageIcon className="w-8 h-8 mb-2" />
                             <span className="text-sm font-sans">Trage poze aici din panoul stânga</span>
                         </div>
                     ) : (
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-3">
                             {assignments.map((a) => (
                                 <AssignmentCard key={a.id} assignment={a}
                                     onRemove={() => onRemoveAssignment(a.id)}
@@ -118,7 +118,7 @@ export function CategorySection({
                 </div>
 
                 {/* Observații */}
-                <div className="px-5 pb-4">
+                <div className="px-3 sm:px-5 pb-4">
                     <InlineTextBlock
                         title="Observații"
                         icon={<MessageSquare className="w-4 h-4" />}
@@ -132,7 +132,7 @@ export function CategorySection({
                 </div>
 
                 {/* Use Cases Mobexpert */}
-                <div className="px-5 pb-5">
+                <div className="px-3 sm:px-5 pb-5">
                     <InlineTextBlock
                         title="Use Cases Mobexpert"
                         icon={<Lightbulb className="w-4 h-4" />}
