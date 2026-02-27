@@ -45,7 +45,7 @@ export default function CategoriesPage() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col lg:flex-row bg-background">
+        <div className="min-h-screen flex flex-col lg:flex-row bg-background pt-20">
             {/* Left Panel — Drive Media Pool */}
             <DriveMediaPool
                 files={filteredFiles}

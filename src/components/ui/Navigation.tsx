@@ -10,6 +10,7 @@ export const Navigation = () => {
     const navItems = [
         { label: "Acasă", href: "/" },
         { label: "Categorii", href: "/categories" },
+        { label: "Prezentare", href: "/prezentare" },
     ];
 
     return (
