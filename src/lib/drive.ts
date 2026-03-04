@@ -5,6 +5,8 @@ const SUPPORTED_TYPES = [
     'image/png',
     'image/webp',
     'image/gif',
+    'image/heic',
+    'image/heif',
     'video/mp4',
     'video/quicktime',
 ];
